@@ -34,7 +34,7 @@ REAL*8 :: AT
 REAL*8, DIMENSION(0:N,5) :: I_R
 
 
-OPEN(UNIT=20, FILE = "/home/changwan/TEST/output_values.txt" &
+OPEN(UNIT=20, FILE = "/home/changwan/ATTENUATION/output_values.txt" &
      , STATUS = "REPLACE", ACTION = "WRITE")  
 
 permit_r_1 = 16.0
